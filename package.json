@@ -1,0 +1,19 @@
+{
+	"name": "gwe-api",
+	"version": "1.0.0",
+	"description": "",
+	"main": "server.js",
+	"scripts": {
+		"start": "node server.js",
+		"dev": "nodemon server.js"
+	},
+	"author": "Sky McMahon",
+	"license": "",
+	"dependencies": {
+		"express": "^4.17.1",
+		"mongoose": "^5.9.16",
+		"nodemon": "^2.0.4"
+	},
+	"devDependencies": {},
+	"repository": {}
+}
