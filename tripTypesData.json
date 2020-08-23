@@ -1,0 +1,31 @@
+{
+	"tripTypes": [
+		{
+			"title": "Mighty 5",
+			"tripLength": "7 days 6 nights",
+			"participants": "32",
+			"meals": "18",
+			"parks": ["Zion", "Bryce", "Canyon Lands", "Arches", "Capitol Reef"],
+			"cost": "2499",
+			"description": "Discover five national parks and three national monuments, each exquisite and full of natural wonders.",
+			"coverArtUrl": "https://images.unsplash.com/photo-1462652223982-65c34390319f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80"
+		},
+		{
+			"title": "Grand 6",
+			"tripLength": "10 days 9 nights",
+			"participants": "36",
+			"meals": "24",
+			"parks": [
+				"Zion",
+				"Bryce",
+				"Canyon Lands",
+				"Arches",
+				"Capitol Reef",
+				"Grand Canyon"
+			],
+			"cost": "2499",
+			"description": "Discover five national parks and three national monuments, each exquisite and full of natural wonders.",
+			"imgUrl": "https://images.unsplash.com/photo-1502724808734-6bcfafb27423?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2282&q=80"
+		}
+	]
+}

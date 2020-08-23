@@ -6,8 +6,11 @@ const tripType = new Schema({
 	title: String,
 	length: Number,
 	participants: Number,
+	meals: Number,
 	cost: Number,
 	description: String,
+	imgUrl: String,
+	parks: Array,
 	// parks: [
 	// 	{
 	// 		id: Schema.Types.ObjectId,
