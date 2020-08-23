@@ -4,13 +4,7 @@ const index = (req, res) => {
 	db.TripType.find({}, (err, foundTripTypes) => {
 		if (err) console.log('Error in tripTypes#index:', err);
 
-		res.json({
-			title: 'Mighty 5',
-			length: '6 days 5 nights',
-			participants: 36,
-			cost: 2800,
-			parks: ['zion', 'Bryce', 'Arches'],
-		});
+		res.json({ tripTypes: foundTripTypes });
 	});
 };
 

@@ -4,7 +4,7 @@ const Schema = mongoose.Schema;
 const tripSchema = new Schema({
 	id: Schema.Types.ObjectId,
 	startDate: Date,
-	itinerary: String,
+	itinerary: Object,
 	participants: Number,
 });
 

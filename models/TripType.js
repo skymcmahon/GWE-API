@@ -1,5 +1,6 @@
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
+const Trip = require('./Trip');
 
 const tripType = new Schema({
 	id: Schema.Types.ObjectId,
@@ -17,12 +18,12 @@ const tripType = new Schema({
 	// 		ref: 'Park',
 	// 	},
 	// ],
-	// trips: [
-	// 	{
-	// 		id: Schema.Types.ObjectId,
-	// 		ref: 'Trip',
-	// 	},
-	// ],
+	trips: [
+		{
+			type: mongoose.Schema.Types.ObjectId,
+			ref: 'Trip',
+		},
+	],
 });
 
 const TripType = mongoose.model('TripType', tripType);
