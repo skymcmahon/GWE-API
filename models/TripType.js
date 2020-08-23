@@ -8,18 +8,18 @@ const tripType = new Schema({
 	participants: Number,
 	cost: Number,
 	description: String,
-	parks: [
-		{
-			id: Schema.Types.ObjectId,
-			ref: 'Park',
-		},
-	],
-	trips: [
-		{
-			id: Schema.Types.ObjectId,
-			ref: 'Trip',
-		},
-	],
+	// parks: [
+	// 	{
+	// 		id: Schema.Types.ObjectId,
+	// 		ref: 'Park',
+	// 	},
+	// ],
+	// trips: [
+	// 	{
+	// 		id: Schema.Types.ObjectId,
+	// 		ref: 'Trip',
+	// 	},
+	// ],
 });
 
 const TripType = mongoose.model('TripType', tripType);

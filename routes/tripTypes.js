@@ -1,6 +1,6 @@
 // imports
 const router = require('express').Router();
-// const ctrl = require('../controllers');
+const ctrl = require('../controllers');
 
 // routes
 router.get('/', ctrl.tripTypes.index);
