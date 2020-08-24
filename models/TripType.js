@@ -18,12 +18,12 @@ const tripType = new Schema({
 	// 		ref: 'Park',
 	// 	},
 	// ],
-	// trips: [
-	// 	{
-	// 		type: mongoose.Schema.Types.ObjectId,
-	// 		ref: 'Trip',
-	// 	},
-	// ],
+	trips: [
+		{
+			type: Schema.Types.ObjectId,
+			ref: 'Trip',
+		},
+	],
 });
 
 const TripType = mongoose.model('TripType', tripType);

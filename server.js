@@ -10,7 +10,8 @@ const app = express();
 
 // middleware - API routes
 app.use('/api/triptypes', routes.tripTypes);
-// app.use('/api/trips', routes.trips);
+app.use('/api/trips', routes.trips);
+// app.use('/api/auth', routes.auth);
 
 // connection
 app.listen(port, () => console.log(`Server is running on port ${port}`));

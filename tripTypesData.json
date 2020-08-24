@@ -6,7 +6,7 @@
 			"participants": "32",
 			"meals": "18",
 			"parks": ["Zion", "Bryce", "Canyon Lands", "Arches", "Capitol Reef"],
-			"trips": [{ "id": "5f42b3215663b3174d42c967" }],
+			"trips": [],
 			"cost": "2499",
 			"description": "Discover five national parks and three national monuments, each exquisite and full of natural wonders.",
 			"imgUrl": "https://images.unsplash.com/photo-1462652223982-65c34390319f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80"
