@@ -6,7 +6,8 @@ const port = process.env.PORT || 4000;
 const app = express();
 
 // middleware - JSON parsing
-// app.use(express.json());
+app.use(express.json());
+app.use(express.urlencoded({ extended: false }));
 
 // middleware - API routes
 app.use('/api/triptypes', routes.tripTypes);
