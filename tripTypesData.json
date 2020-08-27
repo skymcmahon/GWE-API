@@ -12,7 +12,10 @@
 				"Arches",
 				"Capitol Reef"
 			],
-			"trips": [],
+			"trips": [
+				"5f47e95c3df4325b90c8d521",
+				"5f47e95c3df4325b90c8d523"
+			],
 			"cost": "2499",
 			"description": "Discover five national parks and three national monuments, each exquisite and full of natural wonders.",
 			"imgUrl": "https://images.unsplash.com/photo-1462652223982-65c34390319f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80"
@@ -29,6 +32,10 @@
 				"Arches",
 				"Capitol Reef",
 				"Grand Canyon"
+			],
+			"trips": [
+				"5f47e95c3df4325b90c8d522",
+				"5f47e95c3df4325b90c8d524"
 			],
 			"cost": "2499",
 			"description": "Discover five national parks and three national monuments, each exquisite and full of natural wonders.",

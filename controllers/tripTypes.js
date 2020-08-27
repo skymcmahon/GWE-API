@@ -11,11 +11,17 @@ const index = (req, res) => {
 
 //--------------------------/SHOW/--------------------------//
 const show = (req, res) => {
-	db.TripType.findById(req.params.id, (err, foundTripType) => {
-		if (err) console.log('Error in tripTypes#show:', err);
+	// db.TripType.findById(req.params.id, (err, foundTripType) => {
+	// 	if (err) console.log('Error in tripTypes#show:', err);
 
-		res.json(foundTripType);
-	});
+	// 	res.json(foundTripType);
+	// });
+	db.TripType.findById(req.params.id)
+		.populate({ path: "trips" })
+		.exec((err, foundTripType) => {
+			if (err) console.log('Error in tripTypes#show:', err);
+			res.json(foundTripType);
+		});
 };
 
 //--------------------------/CREATE/--------------------------//
@@ -36,6 +42,10 @@ const update = (req, res) => {
 		(err, updatedTripType) => {
 			if (err) console.log('Error in tripTypes#update:', err);
 
+			if (!updatedTripType) {
+				res.json({ message: `Trip Type with id: ${req.params.id} NOT found!` });
+			}
+
 			res.json(updatedTripType);
 		}
 	);
@@ -45,7 +55,7 @@ const update = (req, res) => {
 const destroy = (req, res) => {
 	db.TripType.findByIdAndDelete(req.params.id, (err, deletedTripType) => {
 		if (err) console.log('Error in tripTypes#destroy:', err);
-
+		//##########DELETE TRIPS TOO#############
 		res.sendStatus(200);
 	});
 };
