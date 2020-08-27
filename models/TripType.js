@@ -5,7 +5,7 @@ const Trip = require('./Trip');
 const tripType = new Schema({
 	id: Schema.Types.ObjectId,
 	title: String,
-	length: Number,
+	triplength: Number,
 	participants: Number,
 	meals: Number,
 	cost: Number,
