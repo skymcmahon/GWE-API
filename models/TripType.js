@@ -20,7 +20,7 @@ const tripType = new Schema({
 	// ],
 	trips: [
 		{
-			type: Schema.Types.ObjectId,
+			type: mongoose.Schema.Types.ObjectId,
 			ref: 'Trip',
 		},
 	],
