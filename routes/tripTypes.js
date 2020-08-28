@@ -10,7 +10,7 @@ router.get('/', ctrl.tripTypes.index);
 router.get('/:id', ctrl.tripTypes.show);
 router.post('/', ctrl.tripTypes.create);
 router.put('/:id', ctrl.tripTypes.update);
-router.delete('/:id', ctrl.tripTypes.destroy);
+router.delete('/:id/delete', ctrl.tripTypes.destroy);
 
 // #######################
 //          TRIP

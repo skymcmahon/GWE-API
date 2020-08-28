@@ -53,6 +53,7 @@ const update = (req, res) => {
 
 //--------------------------/DELETE/--------------------------//
 const destroy = (req, res) => {
+	console.log(req.params, "line 56 TT controler");
 	db.TripType.findByIdAndDelete(req.params.id, (err, deletedTripType) => {
 		if (err) console.log('Error in tripTypes#destroy:', err);
 		//##########DELETE TRIPS TOO#############
