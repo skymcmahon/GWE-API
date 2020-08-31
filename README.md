@@ -41,12 +41,15 @@ https://notworking.com
 ## Wireframes
 My wireframes were done on Figma. The link to the working file is [here](https://www.figma.com/file/EW2tPzdcsjpF7gAXATqPYI/Final), the link you the prototype is [here](https://www.figma.com/proto/EW2tPzdcsjpF7gAXATqPYI/Final?scaling=min-zoom&node-id=2%3A0).
 * landing page
+
 ![Wireframes](./assets/WF1.png)
 
 * Index page
+
 ![Wireframes](./assets/WF2.png)
 
 * Show page
+
 ![Wireframes](./assets/WF3.png)
 
 
